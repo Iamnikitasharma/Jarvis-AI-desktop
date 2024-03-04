@@ -123,7 +123,7 @@ if __name__=='__main__':
                 content=takecommand().lower()
                 to='jitanshu......'
                 sendEmail(to,content)
-                speak('e                                                                                         mail has been sent to jitanshu')
+                speak('email has been sent to jitanshu')
             except Exception as e:
                 print(e)
                 speak('sorry mam i am not able to send an email')
